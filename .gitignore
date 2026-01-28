@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+ENV/
+.env
+.env.*
+
+# Byte-compiled / optimized / DLL files
+*.so
+
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+
+# React Native / Android / iOS builds
+android/app/build/
+android/.gradle/
+android/build/
+ios/Pods/
+ios/build/
+build/
+
+# Logs
+*.log
+
+# VSCode
+.vscode/
+
+# Ignore compiled Python cache in repo subfolders
+**/__pycache__/
+**/*.py[cod]
